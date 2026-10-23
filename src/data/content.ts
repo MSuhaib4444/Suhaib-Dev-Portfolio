@@ -1,5 +1,3 @@
-import resumeAsset from "@/assets/resume.pdf.asset.json";
-
 export const profile = {
   name: "Muhammad Suhaib Raza",
   email: "muhammadsuhaib4444@gmail.com",
@@ -8,8 +6,8 @@ export const profile = {
   whatsapp: "https://wa.me/923369778224",
   github: "https://github.com/MSuhaib4444",
   location: "Karachi, Pakistan",
-  resume: resumeAsset.url,
-  resumeFileName: "Muhammad-Suhaib-Raza-Resume.pdf",
+  resume: "/MuhammadSuhaibRaza.pdf",
+  resumeFileName: "MuhammadSuhaibRaza.pdf",
 };
 
 export const roles = ["Software Engineer", "React & Next.js Developer", "React Native App Developer", "AI-Powered Web Builder"];

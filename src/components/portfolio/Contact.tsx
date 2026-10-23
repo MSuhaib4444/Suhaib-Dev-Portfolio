@@ -116,7 +116,14 @@ export function Contact() {
               <CopyBtn text={value} />
             </motion.div>
           ))}
-          <motion.a variants={fadeUp} href={profile.resume} download={profile.resumeFileName} className="gradient-border flex items-center justify-center gap-2 rounded-2xl bg-card p-4 font-semibold transition hover:shadow-glow">
+          <motion.a
+            variants={fadeUp}
+            href={profile.resume}
+            download={profile.resumeFileName}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gradient-border flex items-center justify-center gap-2 rounded-2xl bg-card p-4 font-semibold transition hover:shadow-glow"
+          >
             <Download className="h-5 w-5" /> Download Resume
           </motion.a>
         </motion.div>
